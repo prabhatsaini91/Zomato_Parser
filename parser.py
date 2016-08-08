@@ -2,8 +2,9 @@ from bs4 import BeautifulSoup as bs
 import urllib2
 import unicodecsv as csv
 
-# pagenums = 40
-pagenums_for_wifi = 5
+pagenums = 40
+
+# pagenums_for_wifi = 5
 
 names = []
 addresses = []
@@ -12,10 +13,15 @@ costfor2 = []
 timings = []
 ratings = []
 
+## ********** Uncomment this line when finding out the restaurants with wifi ********** ##
+# for pagenum in range(1, pagenums_for_wifi+1) :
+
 for pagenum in range(1,pagenums+1) :
 	print pagenum
 
 	html = urllib2.urlopen('https://www.zomato.com/ncr/noida-restaurants?page='+str(pagenum))
+
+	## ******* Uncomment when finding out restaurants with wifi *********** ##
 	# html = urllib2.urlopen('https://www.zomato.com/ncr/noida-restaurants?wifi=1&page='+str(pagenum))
 	soup = bs(html.read())
 
@@ -49,7 +55,9 @@ print ratings
 
 rows = zip(names, addresses, cuisines, costfor2, timings, ratings)
 
-with open('wifi_restaurants.csv','w') as outfile :
+## ******* Uncomment the line below when finding out the restaurants with wifi ******** ##
+# with open('wifi_restaurants.csv','w') as outfile :
+with open('restaurants.csv','w') as outfile :
 	csv_out = csv.writer(outfile)
 	csv_out.writerow(['name','address','cuisines','cost for 2','timings','rating'])
 
