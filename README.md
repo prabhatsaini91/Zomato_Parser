@@ -3,10 +3,8 @@ Parses data of restaurants from Zomato and stores them in a .csv file
 
 ### Installing Dependencies
 
-```
-pip install beautifulsoup``` 
-```
-pip install unicodecsv```
+```pip install beautifulsoup```
+```pip install unicodecsv```
 
 1. Run the file parser.py to get restaurants.csv
 2. Make changes as listed in the file
