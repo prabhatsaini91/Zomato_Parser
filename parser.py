@@ -1,56 +1,57 @@
 from bs4 import BeautifulSoup as bs
-import requests
-import re
+import urllib2
 import unicodecsv as csv
 
-url = "http://www.zomato.com/ncr/restaurants"
-request = requests.get(url,params={})
-soup = bs(request.text,'html.parser')
+# pagenums = 40
+pagenums_for_wifi = 5
 
-result = soup.find_all('div',{'class':re.compile(r'\bsearch-snippet-card\b')})
+names = []
+addresses = []
+cuisines = []
+costfor2 = []
+timings = []
+ratings = []
 
-all_addresses = []
-all_locations = []
-all_names = []
-all_cuisines = []
-cost_for_2 = []
-all_ratings = []
+for pagenum in range(1,pagenums+1) :
+	print pagenum
 
-for res in result :
-	names = res.find_all('a',{'class':re.compile(r'\bresult-title')})
-	for name in names :
-		all_names.append(name.string.strip())
+	html = urllib2.urlopen('https://www.zomato.com/ncr/noida-restaurants?page='+str(pagenum))
+	# html = urllib2.urlopen('https://www.zomato.com/ncr/noida-restaurants?wifi=1&page='+str(pagenum))
+	soup = bs(html.read())
 
-	locations = res.find_all('a',{'class':re.compile(r'\bsearch-page-text\b')})
-	for location in locations :
-		all_locations.append(location.string)
-		
-	addresses = res.find_all('div',{'class':re.compile(r'\bsearch-result-address\b')})
-	for address in addresses :
-		all_addresses.append(address.string)
+	a_tags = soup.find_all('a',class_="result-title hover_feedback zred bold ln24   fontsize0 ")
+	names = names + [tag.string.strip() for tag in a_tags]
 
-	cuisines = res.find_all('span',{'class':re.compile(r'\bcol-s-11\b')})
-	temp = cuisines[0].find_all('a')
-	fubar = ''
-	for foo in temp :
-		fubar = foo.string + " " + fubar
+	div_tags = soup.find_all('div', class_="col-m-16 search-result-address grey-text nowrap ln22")
+	addresses = addresses + [tag.string.strip() for tag in div_tags]
 
-	all_cuisines.append(fubar)
+	span_tags = soup.find_all('span', class_="col-s-11 col-m-12 nowrap pl0")
+	
+	for tag in span_tags :
+		cuisines.append(', '.join(map(lambda tag: tag.string.strip(), tag.find_all('a'))))
 
-	cost_for_2.append(cuisines[1].string)
+	span_tags = soup.find_all('span', class_="col-s-11 col-m-12 pl0")
+	costfor2 = costfor2 + [tag.string.strip() for tag in span_tags]
 
-	ratings = res.find_all('div',{'class':re.compile(r'\brating-popup\b')})
-	for rating in ratings :
-		all_ratings.append(rating.string.strip())
+	div_tags = soup.find_all('div', class_="res-timing clearfix")
+	timings = timings + [tag['title'].strip() for tag in div_tags]
+
+	div_tags = soup.find_all('div', class_="rating-popup")
+	ratings = ratings + [tag.string.strip() for tag in div_tags]
 
 
-output_to_csv = []
-for i in range(0,len(all_ratings)) :
-	output_to_csv.append((all_names[i],all_locations[i],all_addresses[i],all_cuisines[i],cost_for_2[i],all_ratings[i]))
+print names
+print addresses
+print cuisines
+print costfor2
+print timings
+print ratings
 
-with open('restaurants.csv','w') as outfile :
+rows = zip(names, addresses, cuisines, costfor2, timings, ratings)
+
+with open('wifi_restaurants.csv','w') as outfile :
 	csv_out = csv.writer(outfile)
-	csv_out.writerow(['name','location','address','cuisines','cost for 2','rating'])
+	csv_out.writerow(['name','address','cuisines','cost for 2','timings','rating'])
 
-	for row in output_to_csv :
+	for row in rows :
 		csv_out.writerow(row)

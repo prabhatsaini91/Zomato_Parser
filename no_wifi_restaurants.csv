@@ -1,14 +1,9 @@
 Berco's,"O-1, Sector 12, Noida","Chinese, Thai","₹1,100",12:30 PM to 11 PM,3.8
 Desi Vibes,"G-50, 1st Floor, Sector 18, Noida","North Indian, Mughlai","₹1,400","11:30 AM to 4:30 PM, 6:30 PM to 11:30 PM (Mon-Sun)",3.8
-Burbee's Cafe,"G-56, 2nd Floor, Sector 18, Noida","American, Italian, Cafe, Chinese, North Indian",₹850,11 AM to 11 PM,3.8
 Kaffiiaa,"J-14, 1st & 2nd Floor, Sector 18, Noida","Cafe, Italian","₹1,000",10:30 AM to 12 Midnight,3.7
 KFC,"P-21, Near Vodafone Store, Sector 18 Market, Sector 18, Noida","American, Fast Food",₹500,11 AM to 11 PM,2.7
-Wendy's,"D-4208, 3rd Floor, DLF Mall of India, Sector 18, Noida","Burger, Fast Food",₹400,11 AM to 11 PM,3.6
-2 Bros Kitchen,"Plot 14, C-98, Sector 41, Noida","North Indian, Chinese, Fast Food",₹600,12 Noon to 11:30 PM,3.6
 Biryani Paradise,"G-24, Sector 18, Noida","Biryani, North Indian, Hyderabadi",₹800,"11 AM to 10:30 PM (Mon, Wed-Sun), 11:30 AM to 11:10 PM (Tue)",3.7
-McDonald's,"P-16, Atta Market, Sector 18, Noida",Fast Food,₹500,8 AM to 11 PM,3.8
 Domino's Pizza,"C-2/22, Sector 18, Noida","Pizza, Fast Food",₹700,11 AM to 11 PM,3.5
-Wat-a-Burger!,"Shop 4, JOP Plaza, Near Lenskart, Sector 18, Noida",Fast Food,₹200,11 AM to 10:30 PM,4.3
 Metro Dhaba,"B-1/35, Sector 18, Noida","North Indian, Mughlai, Biryani, Chinese",₹500,11 AM to 12 Midnight,3.8
 Smoked Biryani House,"1st & 2nd Floor, G-35, Sector 18, Noida",North Indian,"₹1,000",11 AM to 11 PM,3.8
 TGI Friday's,"319-320, 3rd Floor, The Great India Place Mall, Sector 38-A, Near Sector 38, Noida","American, Tex-Mex","₹2,500",12 Noon to 12 Midnight,3.5
@@ -23,45 +18,33 @@ SodaBottleOpenerWala,"3rd Floor, DLF Mall of India, Sector 18, Noida","Parsi, Ir
 Happy Hakka,"149, Jaipuria Plaza, Sector 26, Noida",Chinese,₹650,Mon-Sun (12 Noon to 11 PM),3.6
 Chili's Grill & Bar,"3rd Floor, DLF Mall Of India, Sector 18, Noida","Mexican, American, Italian","₹1,500",12 Noon to 12 Midnight,3.9
 Mamagoto,"B-423, 3rd Floor, DLF Mall of India, Sector 18, Noida","Asian, Thai, Chinese","₹1,500",12:30 PM to 11:30 PM,4.1
-Mumbai Matinee,"1st Floor, J-19, Sector 18, Noida","Fast Food, Italian, North Indian, Mexican","₹1,000",11 AM to 12 Midnight,3.7
 Punjabi By Nature,"P-19, Sector 18, Noida","North Indian, Mughlai","₹2,000",11:30 AM to 11 PM,3.7
 Carl's Jr.,"F-457/C, 3rd Floor, DLF Mall of India, Sector 18, Noida","Burger, American, Fast Food",₹450,11 AM to 11 PM,3.9
-Tawak,"H-224/H, 1st floor, Near Indian Oil Petrol Pump, Sector 63, Noida","North Indian, Mughlai, Asian, Thai","₹1,500","12 Noon to 3:30 PM, 7 PM to 11:30 PM",4
 The Ancient Barbeque,"H-27/1A, Sector 63, Noida","North Indian, Chinese, Continental","₹1,500","12 Noon to 3:30 PM, 6:30 PM to 11 PM",3.9
 Donald's Pastry Shop,"J-55, Sector 18, Noida",Bakery,₹300,10 AM to 10 PM,3.8
-Theos,"Dynamic House, Main Dadri Road, Near HP Petrol Pump, Sector 41, Noida","Cafe, Italian, Desserts, Bakery","₹1,500",11 AM to 12 Midnight,4.4
 Dunkin' Donuts,"SH-52, Plot A-2, Lower Ground Floor, Gardens Galleria, The Great India Place, Sector 38, Noida","Burger, Desserts, Fast Food",₹700,11 AM to 12 Midnight,3.8
 Subway,"B-14, K.J Enterprises, Sector 18, Noida","American, Fast Food, Salad, Healthy Food",₹500,11 AM to 11 PM,3.6
 Pizza Hut Delivery,"B-1/32, Central Market, Sector 50, Noida","Italian, Pizza",₹800,11 AM to 11 PM,2.1
-Legends Barbeques,"311A, 2nd Floor, Spice World Mall, Sector 25, Noida","North Indian, Chinese, Mediterranean, Asian, Continental","₹1,300","12 Noon to 3:30 PM, 6:30 PM to 11 PM",3.8
 Naivedyam,"H-1A/17, 1st Floor, Near Fortis Hospital & Ginger Hotel, Sector 63, Noida",South Indian,₹500,11 AM to 11 PM,4
 Our Story Bistro & Tea Room,"G-38, 1st Floor, Sector 18, Noida","Cafe, Italian, Continental, Desserts","₹1,000",10:30 AM to 12 Midnight (Mon-Sun),4.1
 DCK- Dana Choga's Kitchen,"B-1/52, Central Market, Sector 50, Noida","North Indian, Mughlai",₹800,11 AM to 11 PM,2.6
 Creme Castle,"Ground Floor, 28, Ansal Plaza Mall, Near Reliance Footprint, Pari Chowk, Greater Noida, Noida","Cafe, Continental, Italian, Fast Food, Bakery",₹700,10 AM to 10:30 PM,4
 Bistro 37,"Shop 11, Godawari Complex, Sector 37, Noida","Continental, Fast Food",₹400,"11 AM to 9:45 PM (Mon, Wed-Thu, Sat-Sun), 11 AM to 3 PM, 4 PM to 9:45 PM (Fri), Tue Closed",4.4
 Filmy Flavours,"1st Floor, Plot 36, Block H-1 A, Commercial Market, Sector 63, Noida","North Indian, Mughlai, Chinese",₹900,"12 Noon to 3:30 PM, 7 PM to 10:30 PM",3.9
-Mad Over Donuts,"J-52,Ground Floor,  Main Market, Sector 18, Noida","Cafe, Desserts",₹450,11 AM to 11 PM,4.1
 Nazeer Foods,"C-9, Behind Shipra Hotel, Sector 18, Noida","Mughlai, North Indian",₹600,12 Noon to 11 PM,3.6
 Bamboo Shoots,"F-2/3, Sector 18, Noida","Chinese, Seafood, Asian","₹1,600","12:30 PM to 3:15 PM, 7 PM to 11:15 PM",3.8
-Basil Tree,"G-43 & 44, Main Market, Near Radisson Hotel, Sector 18, Noida","Italian, North Indian, Chinese","₹1,200",12 Noon to 11 PM,3.5
 RollsKing,"J-3, Near GIP Footover Bridge, Sector 18, Noida",Fast Food,₹300,11 AM to 11 PM,4.1
 PizzaExpress,"3rd Floor, DLF Mall of India, Sector 18, Noida","Italian, Pizza","₹1,600",11:30 AM to 11:30 PM,3.8
-New Town Cafe - Park Plaza,"Park Plaza Hotel, C Block, Sector 55, Noida","Continental, Chinese, North Indian","₹2,800",7 AM to 12 Midnight,4
 Baby Dragon Bar & Restaurant,"G-34, Sector 18, Noida","North Indian, Continental, Thai, Chinese","₹1,350",11:30 AM to 12 Midnight,3.5
-The Yellow Chilli,"H-1, A/31, Commercial Market, Sector 63, Noida","North Indian, Mughlai","₹1,600",12 Noon to 12 Midnight,3.5
-London Cafe,"H-224, Opposite Ginger Hotel, Sector 63, Noida","Cafe, North Indian, Italian","₹1,300",10:30 AM to 10:30 PM,4
-Diet N Delicacy,"28B, Ground floor, Pearls Plaza, Sector 18, Noida","Cafe, Continental, North Indian",₹450,"12 Midnight to 4 AM, 8 AM to 12 Midnight (Mon, Tue, Thu, Fri, Sat, Sun), 12 Midnight to 4 AM, 8 AM to 11:59 AM (Wed)",3.7
 Pind Balluchi,"The Great India Place Mall, Sector 38-A, Near Sector 38, Sector 38, Noida","North Indian, Mughlai",₹800,12 Noon to 11 PM,3.4
 Aureo Dine & Bake House,"Shop 9, Block A-3, Sector 110, Noida","North Indian, Chinese, Continental",₹900,10 AM to 11 PM,3.6
 Deez Biryani & Kebabs,"P-10, 1st Floor, Sector 18, Noida","Biryani, North Indian, Mughlai",₹650,11 AM to 11 PM,3.5
-Cafe Delhi Heights,"3rd Floor, DLF Mall of India, Sector 18, Noida","Continental, American, Cafe","₹1,500",Mon-Sun (11 AM to 11:59 PM),3.7
 Bikanervala,"1st Floor, Silver Tower, Near Metro Station, Sector 18, Noida","North Indian, South Indian, Fast Food, Street Food, Chinese, Beverages, Desserts, Mithai",₹550,8 AM to 11 PM,3.7
 Teasta,"16, Godawari Complex, Sector 37, Noida",Fast Food,₹200,"10:30 AM to 9:30 PM (Mon, Wed-Sun), Tue Closed",4.3
 Haldiram's,"B-1, Sector 63, Noida","North Indian, South Indian, Chinese, Street Food, Mithai",₹450,10 AM to 11 PM,3.5
 LIT Ultrabar,"B-1, 9/10, Near Sector 18 Metro Station, Sector 18, Noida","Chinese, Continental","₹1,550",12 Noon to 12 Midnight,3.7
 Yo! China,"3rd Floor, The Great India Place Mall, Sector 38-A, Near Sector 38, Noida",Chinese,"₹1,300",12 Noon to 11 PM,2.4
 Lakshmi Coffee House,"Brahmaputra Shopping Complex, Sector 29, Noida",South Indian,₹150,"12 Noon to 10:30 PM (Mon), 9:30 AM to 10:30 PM (Tue-Sun)",3.9
-TFK - The Flaming Kick,"1st Floor, Ansal Fortune Arcade, Sector 18, Noida","North Indian, Asian, Continental","₹2,350",12 Noon to 12 Midnight,3.5
 Hungry - I,"20, A Block Market, Near Amity School, Sector 44, Noida","Cafe, Fast Food, Italian, Chinese, Continental",₹450,10:45 AM to 10:30 PM (Mon-Sun),3
 Culinate,"Shop 6-A, B Block Market, Sector 53, Noida",Fast Food,₹500,Mon-Sun (8 AM to 10:30 PM),3.7
 Lawn Bistro,"12, Rajnigandha Market, Sector 15-A, Near, Sector 15, Noida","North Indian, Chinese, Thai, Continental","₹1,500",12 Noon to 12 Midnight,3.7
@@ -83,9 +66,7 @@ Mandarin Trail,"3rd Floor, The Great India Place Mall, Sector 38-A, Near Sector 
 The Great Kabab Factory,"Ansal's Fortune Arcade, Sector 18, Noida","North Indian, Mughlai","₹2,200",12 Noon to 11 PM,3.6
 Sagar Ratna,"49-50, Ansal Fortune Arcade, Sector 18, Noida","South Indian, North Indian, Chinese",₹600,8 AM to 11 PM,2.5
 Maamouchee @ My Way,"5th Floor, Centre Stage Mall, Sector 18, Noida","Italian, Lebanese, North Indian","₹1,100",12 Noon to 11:30 PM,3.5
-Chaayos,"DLF IT Park, Sector 62, Noida","Tea, Cafe",₹400,"8 AM to 9 PM (Mon-Sat), Sun Closed",3.7
 Slice of Italy,"7/8/9, VDS Market, Sector 51, Noida","Italian, Pizza, Bakery","₹1,000",9 AM to 1 AM,2.4
-Xiian,"G-45, Sector 18 Market, Sector 18, Noida","Italian, Continental, North Indian, Chinese","₹1,400",12 Noon to 12 Midnight,3.5
 Binge Restaurant,"C-25, Ground Floor, Stellar IT Park, Sector 62, Noida","North Indian, Chinese, Continental","₹1,100",11 AM to 11 PM,3.2
 Americana Kitchen and Bar,"Ist Floor, 1-6, Centre Stage Mall, Sector 18, Noida","American, Tex-Mex, Italian, Mexican, North Indian","₹2,000",12 Noon to 12 Midnight,2.8
 Popular Cakery,"BK-1, Near Sector 18, Metro Station, Sector 18, Noida","Bakery, Desserts, Fast Food",₹400,"10 AM to 10 PM (Mon-Fri), 10 AM to 11 PM (Sat-Sun)",4
@@ -95,23 +76,17 @@ Spize Nothing Like That Bar Be Que,"H-1-A/26, Sector 63, Noida","North Indian, C
 Kamboj's,"AVCC Club, Sector 37, Noida","North Indian, Mughlai, Chinese",₹800,"12 Noon to 3:30 PM, 6:30 PM to 11 PM (Mon-Sun)",2.7
 Uncle's,"S-17 &18, L Block Market, Sector 11, Noida","North Indian, Chinese, Mughlai",₹700,"12 Noon to 4 PM, 7 PM to 11 PM",3.6
 Tadqa Tandoor Express,"Ground Floor, Main Road, Yadhuvanshi Tower, Opposite Pathways School, Sector 104, Near Sector 110, Noida","North Indian, Mughlai",₹750,12 Noon to 11 PM (Mon-Sun),3.6
-Nirula's,"C-135, Near Sector 15 Metro Station, Sector 2, Noida","Fast Food, North Indian, Desserts, Ice Cream","₹1,100",11 AM to 11 PM,2.4
 Colonel's Kababz,"320-A, 3rd Floor, The Great India Place, Sector 38- A, Near, Sector 38, Noida","North Indian, Mughlai","₹1,100",11 AM to 11 PM,3.6
-Swagath,"J-57, Near Centrestage Mall, Sector 18, Noida","Seafood, Chettinad, North Indian, Mangalorean, Chinese, Andhra","₹2,000",11 AM to 11:30 PM,3.7
 The Punjabiis Restro Bar,"325-A, 3rd Floor, The Great India Place Mall, Sector 38-A, Near Sector 38, Sector 38, Noida","North Indian, Chinese","₹1,200",11 AM to 11 PM,3.7
 Spice Darbaar,"Sector 93, Noida",North Indian,₹600,"12 Noon to 11 PM (Mon-Thu, Sun), 12 Noon to 12 Midnight (Fri-Sat)",3.9
-Fit Bites,"B-5, Ground Floor, Wave Silver Tower, Sector 18, Noida","Cafe, Healthy Food",₹800,Mon-Sun (8 AM to 1 AM),4
 Ristorante Prego,"323, 3rd Floor, The Great India Place Mall, Sector 38-A, Near Sector 38, Sector 38, Noida",Italian,"₹1,200",11 AM to 11 PM,2.9
 Kapoors Balle Balle,"K-2, Brahmaputra Shopping Complex, Sector 29, Noida","North Indian, Chinese",₹400,11 AM to 11 PM,3.9
-The Tandoori Village,"J-57, 1st Floor, Sector 18, Noida","North Indian, Mughlai, Italian, Chinese","₹1,500",11:30 AM to 12 Midnight,3.5
 Glued,"Dynamic House, Next to HP Petrol Pump, Sector 41, Noida",Fast Food,"₹1,000",11 AM to 11 PM,3.7
 Barfi,"514-515, Hajipur Village, Sector 104, Near Sector 110, Noida","North Indian, South Indian, Chinese, Street Food",₹350,9 AM to 11 PM,3.6
 Haochi,"Gurukripa Bhawan, Sector 53, Noida",Chinese,₹600,11 AM to 11 PM (Mon-Sun),3.7
 Pearls Regency,"R-253, Block I, Ganga Shopping Complex, Sector 29, Noida","North Indian, Chinese, Thai","₹1,000","11:30 AM to 3:15 PM, 7 PM to 11:15 PM",3.9
-S-18 - Radisson Blu,"Radisson Blu Hotel, L-2, Sector 18, Noida","Mediterranean, Continental, North Indian, Italian","₹3,200","6:30 AM to 10:30 AM, 12:30 PM to 3:30 PM, 7:30 PM to 11:30 PM",3.5
 Rubaab Restaurant,"S-2, 1st Floor, Above Canara Bank, Gamma Shopping Complex, Jagat Farm Main Market, Greater Noida, Noida","North Indian, Mughlai, Chinese",₹600,11 AM to 10:30 PM,2.7
 Paddy's Cafe,"J-3, 1st Floor, Sector 18, Noida","Continental, Italian, Lebanese, Cafe",₹800,11 AM to 11 PM,3.8
-Lemon Twist,"H-1, A/16, Sector 63, Noida","North Indian, Chinese, Asian","₹1,300","12 Noon to 3:15 PM, 7 PM to 11:15 PM",2.8
 Quetzal Cafe Lounge,"J-20, Sector 18, Noida","Italian, Chinese, Mughlai","₹1,000",11 AM to 11 PM,3.4
 Doosri Mehfil,"D-2C, Sector 18, Noida","North Indian, Chinese, Mughlai",₹950,12 Noon to 12 Midnight,3.6
 Yumm Biryani,"1-B, Lower Ground Floor, Food Court, Supertech Shopprix Mall, Sector 61, Noida","Biryani, Mughlai",₹550,12 Noon to 11 PM (Mon-Sun),3.2
@@ -120,12 +95,10 @@ Oh So Stoned!,"4th Floor, DLF Mall Of India, Sector 18, Noida",Desserts,₹250,1
 Lahori Restaurant,"B-1/28, Central Market, Above Archies, Sector 50, Noida","North Indian, Chinese",₹800,11:30 AM to 12 Midnight,2.4
 Bon Bon Pastry Shop,"F-1, Sector 18, Noida","Bakery, Desserts, Fast Food",₹150,9 AM to 10 PM,2.8
 The Bento Cafe,"Food Court, 4th Floor, DLF Mall of India, Sector 18, Noida","Asian, Chinese, Japanese",₹700,11 AM to 11 PM,3.8
-Mithaas,"G-20, Ground Floor, Ashirwad Complex, Sector 53, Noida","North Indian, Chinese, South Indian",₹650,11 AM to 10:30 PM,3.4
 Cinnabon,"Ground Floor, DLF Mall Of India, Sector 18, Noida","Desserts, Fast Food",₹450,11 AM to 11 PM,4
 The Chocolate Room,"3rd Floor, The Great India Place, Sector 18, Noida","Cafe, Desserts",₹400,11 AM to 11 PM,4.1
 Club Ice Cube,"313, 3rd Floor, The Great India Place Mall, Sector 38-A, Near Sector 38, Sector 38, Noida","North Indian, Continental, Chinese","₹2,400",12 Noon to 1 AM,2
 Zauk,"AF-28, Ansal Plaza Mall, Pari Chowk, Greater Noida, Noida","Mughlai, North Indian",₹500,12 Noon to 11 PM (Mon-Sun),3.6
-Smaaash,"4th Floor, DLF Mall of India, Sector 18, Noida","North Indian, Thai, Continental","₹1,350",11 AM to 11 PM,3.6
 Asia Kitchen,"H-1-A, Sector 63, Noida","Chinese, Thai, North Indian","₹1,200","12:30 PM to 3:15 PM, 5:45 PM to 11:30 PM",3.6
 Owlcity,"Sector 19, Noida",Fast Food,₹300,11 AM to 11 PM,3.9
 Imly,"Food Court, DLF Mall Of India, Sector 18, Noida","Street Food, North Indian, Chinese, Continental",₹600,"12 Noon to 5 PM, 7 PM to 11 PM",3.6
@@ -133,7 +106,6 @@ Thaal Vaadi,"310/311, 3rd Floor, The Great India Place Mall, Sector 38-A, Near S
 27 Grills,"Shop 27, D Block Market, Sector 27, Noida","North Indian, Chinese, Mughlai",₹600,12 Noon to 11:50 PM,3.7
 Turquoise Cottage - TC Original 1997,"Gardens Galleria Mall, Plot A-2, Sector 38, Noida","Continental, American, Italian, Mediterranean","₹1,900",9 AM to 10:30 PM,3.7
 MY Spice Kitchen & Cafe,"G-7 & G-8, BJ Mart, Street 1, Near Hero Honda Showroom, Jagat Farm, Gamma 1, Greater Noida, Noida","Cafe, Italian, Thai, Continental, Pizza, Mexican, Chinese","₹1,000",11 AM to 11 PM,3.6
-Cafe R.I.P,"B-1/61, Central Market, Sector 50, Noida",Cafe,₹700,11 AM to 11 PM,3.6
 Kitchen Mantra,"Plot 3, Sector 83, Noida","North Indian, Mughlai, Chinese",₹700,11:30 AM to 12 Midnight,2.9
 Moti Mahal Delux Tandoori Trail,"H-224-K, 1st & 2nd Floor, Sector 63, Noida","North Indian, Mughlai, Chinese","₹1,400",11 AM to 11 PM,3.4
 Wow! Momo,"Food Court, DLF Mall of India, FC16, Plot M-03, Sector 18, Noida","Tibetan, Chinese",₹350,9 AM to 10 PM,3.4
